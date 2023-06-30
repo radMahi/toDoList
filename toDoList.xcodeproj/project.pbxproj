@@ -11,6 +11,10 @@
 		BD6E0A2B2A4B4993006ED487 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6E0A2A2A4B4993006ED487 /* ContentView.swift */; };
 		BD6E0A2D2A4B4994006ED487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6E0A2C2A4B4994006ED487 /* Assets.xcassets */; };
 		BD6E0A302A4B4994006ED487 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6E0A2F2A4B4994006ED487 /* Preview Assets.xcassets */; };
+		BD6E0A372A4B4A0F006ED487 /* toDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6E0A362A4B4A0F006ED487 /* toDoItem.swift */; };
+		BD6E0A392A4B4D8C006ED487 /* newToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6E0A382A4B4D8C006ED487 /* newToDo.swift */; };
+		BD90449F2A4DD78500051DCF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90449E2A4DD78500051DCF /* Persistence.swift */; };
+		BD9044A22A4DDB4700051DCF /* toDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD9044A02A4DDB4700051DCF /* toDoList.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		BD6E0A2A2A4B4993006ED487 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD6E0A2C2A4B4994006ED487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD6E0A2F2A4B4994006ED487 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD6E0A362A4B4A0F006ED487 /* toDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoItem.swift; sourceTree = "<group>"; };
+		BD6E0A382A4B4D8C006ED487 /* newToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newToDo.swift; sourceTree = "<group>"; };
+		BD90449E2A4DD78500051DCF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BD9044A12A4DDB4700051DCF /* toDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = toDoList.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				BD6E0A282A4B4993006ED487 /* toDoListApp.swift */,
 				BD6E0A2A2A4B4993006ED487 /* ContentView.swift */,
+				BD6E0A382A4B4D8C006ED487 /* newToDo.swift */,
+				BD90449E2A4DD78500051DCF /* Persistence.swift */,
+				BD6E0A362A4B4A0F006ED487 /* toDoItem.swift */,
 				BD6E0A2C2A4B4994006ED487 /* Assets.xcassets */,
 				BD6E0A2E2A4B4994006ED487 /* Preview Content */,
+				BD9044A02A4DDB4700051DCF /* toDoList.xcdatamodeld */,
 			);
 			path = toDoList;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6E0A392A4B4D8C006ED487 /* newToDo.swift in Sources */,
+				BD9044A22A4DDB4700051DCF /* toDoList.xcdatamodeld in Sources */,
 				BD6E0A2B2A4B4993006ED487 /* ContentView.swift in Sources */,
+				BD6E0A372A4B4A0F006ED487 /* toDoItem.swift in Sources */,
 				BD6E0A292A4B4993006ED487 /* toDoListApp.swift in Sources */,
+				BD90449F2A4DD78500051DCF /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +353,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD9044A02A4DDB4700051DCF /* toDoList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD9044A12A4DDB4700051DCF /* toDoList.xcdatamodel */,
+			);
+			currentVersion = BD9044A12A4DDB4700051DCF /* toDoList.xcdatamodel */;
+			path = toDoList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BD6E0A1D2A4B4993006ED487 /* Project object */;
 }
